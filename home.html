@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReGenera</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+  <div id="header"></div>
+  <section class="hero">
+    <div class="hero__bg">
+      <img src="img/imagen-portada.jpg" alt="Imagen portada" class="hero__img-bg" />
+    </div>
+    
+    <div class="hero__content">
+      <h1>Un especialista a la vuelta de tu pantalla</h1>
+      <p class="hero__subtitle">Agendá tu consulta ahora y empezá a cambiar tu estilo de vida.</p>
+      <div class="hero__buttons">
+        <a href="./registrarse.html"  class="btn btn--primary">¡Quiero sumarme!</a>
+        <!-- <button class="btn btn--primary">¡Quiero sumarme!</button> -->
+        <button class="btn btn--secondary">Ya tengo cuenta</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios Section -->
+  <section class="benefits">
+    <h2 class="benefits__title">¿Sentís que te falta ese empujón para rendir mejor en tu deporte?</h2>
+    <p class="benefits__desc">No te preocupes, acá estamos para ayudarte. Te armamos un plan de alimentación y rutinas con profesionales que te entienden de verdad.</p>
+    <div class="benefits__grid">
+      <div class="benefit benefit--alimentacion">
+        <div class="benefit__img">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80" alt="Alimentación" class="benefit__img-el">
+        </div>
+        <div class="benefit__content">
+          <h3>¿Probaste cambiar tu alimentación?</h3>
+          <p>Capaz tu dieta te está frenando y ni te diste cuenta. Nuestros nutricionistas te ayudan a ajustar lo que comés para que te sientas con más energía y logres tus objetivos.</p>
+          <button class="btn btn--secondary">Ver especialistas en alimentación</button>
+        </div>
+      </div>
+      <div class="benefit benefit--entrenamiento">
+        <div class="benefit__img">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Entrenamiento" class="benefit__img-el">
+        </div>
+        <div class="benefit__content">
+          <h3>¿Tu rutina ya no te motiva?</h3>
+          <p>Si sentís que te estancaste, es hora de cambiar. Hablá con nuestros profesionales y armá una estrategia que te saque de la zona de confort.</p>
+          <button class="btn btn--secondary">Ver especialistas en entrenamiento</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professionals Section -->
+  <section class="professionals">
+    <div class="professionals__container">
+              <h2 class="professionals__title">Conocé a los profesionales que te van a acompañar</h2>
+      <p class="professionals__subtitle">Todos tienen experiencia real y te van a dar una mano para que llegues a donde querés.</p>
+      
+      <div class="professionals__grid">
+        <div class="professional-card">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Alex Carter" class="professional-card__image">
+          <div class="professional-card__content">
+            <h3 class="professional-card__name">Alex Carter</h3>
+            <p class="professional-card__title">Entrenador de fuerza. Si recién arrancás, Alex te ayuda a ganar confianza y músculo.</p>
+            <div class="professional-card__specialties">
+              <span class="specialty-tag">Deporte</span>
+              <span class="specialty-tag">Nutrición</span>
+            </div>
+            <button class="btn btn--dark professional-card__contact">Solicitar llamada con Alex</button>
+          </div>
+        </div>
+
+        <div class="professional-card">
+          <img src="https://seaoptica.com/wp-content/uploads/2025/07/videoframe_1883-scaled.avif" alt="Jamie Lee" class="professional-card__image">
+          <div class="professional-card__content">
+            <h3 class="professional-card__name">Jamie Lee</h3>
+            <p class="professional-card__title">Entrenadora yoga y pilates, experta en nutrición vegana.</p>
+            <div class="professional-card__specialties">
+              <span class="specialty-tag">Veganismo</span>
+              <span class="specialty-tag">Nutrición</span>
+            </div>
+            <button class="btn btn--dark professional-card__contact">Solicitar llamada con Jamie</button>
+          </div>
+        </div>
+
+        <div class="professional-card">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Ethan Bennett" class="professional-card__image">
+          <div class="professional-card__content">
+            <h3 class="professional-card__name">Ethan Bennett</h3>
+            <p class="professional-card__title">Coach de running. Si tu meta es cruzar la meta, Ethan te lleva paso a paso.</p>
+            <div class="professional-card__specialties">
+              <span class="specialty-tag">Perder peso</span>
+              <span class="specialty-tag">Entrenamiento personalizado</span>
+            </div>
+            <button class="btn btn--dark professional-card__contact">Solicitar llamada con Ethan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-us">
+    <div class="why-choose-us__container">
+      <h2 class="why-choose-us__title">¿Por qué elegirnos?</h2>
+      <div class="why-choose-us__grid">
+        <div class="feature-card">
+          <div class="feature-card__image">
+            <img src="https://framerusercontent.com/images/jJCfp3jpE0QSvvPnlRnjpds1o.png?scale-down-to=512" alt="Atención personalizada" class="feature-card__img">
+          </div>
+          <h3 class="feature-card__title">Te escuchamos de verdad</h3>
+          <p class="feature-card__description">Acá no sos un número más. Nos importa lo que te pasa y te damos un plan hecho a tu medida.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__image">
+            <img src="https://framerusercontent.com/images/QX0psJBkQ1Cb0FcvQbFlkGrtUuI.png?scale-down-to=512" alt="Resultados garantizados" class="feature-card__img">
+          </div>
+          <h3 class="feature-card__title">Resultados que se sienten</h3>
+          <p class="feature-card__description">No te prometemos magia, pero sí cambios reales. Si ponés ganas, los resultados llegan.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__image">
+            <img src="https://framerusercontent.com/images/vAnemHP7s8uMItb6stLWRR34Hw.png?scale-down-to=512" alt="Soporte continuo" class="feature-card__img">
+          </div>
+          <h3 class="feature-card__title">Siempre estamos para vos</h3>
+          <p class="feature-card__description">No te dejamos solo/a. Si tenés dudas, te respondemos y te acompañamos en cada paso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="contact__container">
+      <div class="contact__content">
+        <h2 class="contact__title">Contactá fácil con tu profe</h2>
+        <p class="contact__subtitle">Lo mejor de todo: la atención es 100% personalizada. Nada de soluciones genéricas, acá sos vos y tu objetivo.</p>
+      </div>
+      <div class="contact__phone">
+        <div class="phone-mockup">
+          <div class="phone-mockup__frame">
+            <div class="phone-mockup__screen">
+              <div class="phone-mockup__status-bar">
+                <span class="phone-mockup__time">9:41</span>
+                <div class="phone-mockup__indicators">
+                  <div class="phone-mockup__signal"></div>
+                  <div class="phone-mockup__wifi"></div>
+                  <div class="phone-mockup__battery"></div>
+                </div>
+              </div>
+              <div class="phone-mockup__header">
+                <div class="phone-mockup__profile">
+                  <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sofia Daniels" class="phone-mockup__avatar">
+                  <div class="phone-mockup__profile-info">
+                    <h4 class="phone-mockup__name">Juan Ignacio</h4>
+                    <p class="phone-mockup__role">Profesor de Nutrición Dieta Queto</p>
+                  </div>
+                </div>
+              </div>
+              <div class="phone-mockup__video">
+                <img src="img/imagenes-especialistas/video-llamada.png" alt="Videollamada" class="phone-mockup__video-feed">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <div class="faq__container">
+      <h2 class="faq__title">Preguntas que seguro te hiciste</h2>
+      <div class="faq__list">
+        <div class="faq__item">
+          <button class="faq__question">¿Qué es ReGenera? <span class="faq__icon">+</span></button>
+          <div class="faq__answer">ReGenera es como ese amigo que te conecta con profesionales de salud y deporte para que te sientas mejor y logres lo que te propongas.</div>
+        </div>
+        <div class="faq__item">
+                      <button class="faq__question">¿Quiénes son los profesionales de ReGenera y cómo sé que son buena onda? <span class="faq__icon">+</span></button>
+            <div class="faq__answer">Acá solo hay gente copada y con experiencia posta. Todos los profesionales tienen títulos, experiencia y sobre todo, muchas ganas de ayudarte.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">¿Cómo encuentro a mi profe ideal en ReGenera? <span class="faq__icon">+</span></button>
+          <div class="faq__answer">Podés buscar en nuestro directorio y filtrar por lo que necesitás: especialidad, deporte, objetivo... ¡lo que sea!</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">¿Qué problemas pueden ayudarme a resolver? <span class="faq__icon">+</span></button>
+          <div class="faq__answer">Desde estancamiento en el gym, falta de motivación, hasta bloqueos mentales o dudas con la comida. ¡Preguntá sin miedo!</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">¿Las consultas son online o presenciales? <span class="faq__icon">+</span></button>
+          <div class="faq__answer">La mayoría son online, así podés hablar con tu profe desde donde quieras. ¡Comodidad total!</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios Section -->
+  <section class="testimonios">
+    <div class="testimonios__container">
+      <h2 class="testimonios__title">Testimonios</h2>
+      <div class="testimonios__grid">
+        <div class="testimonio">
+          <div class="testimonio__stars">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+          </div>
+          <p class="testimonio__texto">¡Me sentí súper acompañado! Los profesionales te explican todo fácil y te motivan un montón. ¡Gracias ReGenera!</p>
+          <div class="testimonio__user">
+            <img class="testimonio__avatar" src="https://framerusercontent.com/images/AlRfrZRG5AeZFq6ZVozOjD0bgus.jpg" alt="Daniel Smith">
+            <div>
+              <div class="testimonio__nombre">Daniel Smith</div>
+              <div class="testimonio__rol">Fan del gym</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio">
+          <div class="testimonio__stars">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+          </div>
+          <p class="testimonio__texto">¡Nunca pensé que iba a disfrutar tanto entrenar! Me armaron un plan que se adapta a mi vida y eso se nota.</p>
+          <div class="testimonio__user">
+            <img class="testimonio__avatar" src="https://framerusercontent.com/images/DgU2TAbtAkaP6V6gQl1BFLPZr4M.webp" alt="Lisa Green">
+            <div>
+              <div class="testimonio__nombre">Lisa Green</div>
+              <div class="testimonio__rol">Mamá activa</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio">
+          <div class="testimonio__stars">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+          </div>
+          <p class="testimonio__texto">¡Recomiendo ReGenera a todos! Me ayudaron a salir del estancamiento y ahora me siento con más energía que nunca.</p>
+          <div class="testimonio__user">
+            <img class="testimonio__avatar" src="https://framerusercontent.com/images/gpK9yK5XSqfSBTPmneZW1OTfo.webp" alt="John Smith">
+            <div>
+              <div class="testimonio__nombre">John Smith</div>
+              <div class="testimonio__rol">Corredor amateur</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio">
+          <div class="testimonio__stars">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+          </div>
+          <p class="testimonio__texto">¡El equipo de ReGenera es lo más! Siempre atentos y con buena onda. Se nota que les importa tu progreso.</p>
+          <div class="testimonio__user">
+            <img class="testimonio__avatar" src="https://framerusercontent.com/images/GlCbIL4nxKsv7ZAI0hnidEE88.webp?scale-down-to=1024" alt="Willy Neese">
+            <div>
+              <div class="testimonio__nombre">Willy Neese</div>
+              <div class="testimonio__rol">Fan de la vida sana</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio">
+          <div class="testimonio__stars">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+          </div>
+          <p class="testimonio__texto">¡Nunca me sentí tan acompañado! Si necesitás ayuda, te responden al toque y siempre con buena onda.</p>
+          <div class="testimonio__user">
+            <img class="testimonio__avatar" src="https://framerusercontent.com/images/zup2eoAJlQkklMciR0uF5Zw9V4.webp?scale-down-to=1024" alt="Michael Davis">
+            <div>
+              <div class="testimonio__nombre">Michael Davis</div>
+              <div class="testimonio__rol">Emprendedor</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio">
+          <div class="testimonio__stars">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+            <img src="https://framerusercontent.com/images/2Hf7os3bOYuIBERUSPyAS83mdg.svg" alt="estrella">
+          </div>
+          <p class="testimonio__texto">¡Gracias a ReGenera logré cosas que pensé imposibles! Si estás dudando, animate, no te vas a arrepentir.</p>
+          <div class="testimonio__user">
+            <img class="testimonio__avatar" src="https://framerusercontent.com/images/GlCbIL4nxKsv7ZAI0hnidEE88.webp?scale-down-to=1024" alt="James Wilson">
+            <div>
+              <div class="testimonio__nombre">James Wilson</div>
+              <div class="testimonio__rol">Manager de producto</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .testimonios__title {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        color: #111;
+      }
+      .testimonio__stars {
+        display: flex;
+        gap: 0.2rem;
+        margin-bottom: 1.2rem;
+      }
+      .testimonio__stars img {
+        width: 22px;
+        height: 22px;
+      }
+    </style>
+  </section>
+
+  <!-- CTA Final Section -->
+  <section class="cta-final">
+    <h2 class="cta-final__title">¿Te sentís estancado en el deporte?</h2>
+    <p class="cta-final__desc">Este sitio está pensado para que puedas cumplir tus metas de verdad, con un plan hecho para vos y tu estilo de vida.</p>
+    <button class="cta-final__btn">¡Agendar llamada ahora!</button> 
+  </section>  
+
+
+ 
+
+
+  <!-- Footer -->
+  <div id="footer"></div>
+  <script src="home.js"></script> 
+  <script>
+    fetch('header.html').then(r => r.text()).then(html => { document.getElementById('header').innerHTML = html; });
+    fetch('footer.html').then(r => r.text()).then(html => { document.getElementById('footer').innerHTML = html; });
+  </script>
+
+</body>
+</html>
